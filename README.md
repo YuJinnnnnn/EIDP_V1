@@ -25,7 +25,7 @@ This project creates a dynamic "shooting star" visual effect using Processing. E
 
 ## Usage
 
-- **Start**: Run `ShootingStars.pde`.
+- **Start**: Run `Emotion_Tree_Main.pde`.
 - **Toggle Recording**: Press `R` to save frames to the `video` folder.
 
 <img width="638" alt="image" src="https://github.com/user-attachments/assets/bd608c17-fff2-4bc7-a079-02589b64a5ab">
