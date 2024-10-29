@@ -10,14 +10,17 @@ class Char {
     ballColor = morandiColors[(int)random(morandiColors.length)];
   }
 
+
   void show() {
-    noStroke();
-    for (int i = 0; i < 10; i++) { // Longer tail effect
-      fill(ballColor, 255 - i * 20); // Gradual fading
-      ellipse(x, y - i * speed / 1.5, size - i, size - i);
+      noStroke();
+      for (int i = 0; i < 20; i++) { // Increase tail length
+        float transparency = map(i, 0, 19, 255, 10); // Gradual fade from solid to transparent
+        fill(ballColor, transparency); // Apply calculated transparency
+        ellipse(x, y - i * speed / 1.5, size - i * 0.5, size - i * 0.5); // Slightly smaller circles for smoother trail
+      }
+      ellipse(x, y, size, size); // Main circle
     }
-    ellipse(x, y, size, size); // Main circle
-  }
+
 
   void changeColor() {
     speed = (int)random(3, 10); // Cast to int for speed
