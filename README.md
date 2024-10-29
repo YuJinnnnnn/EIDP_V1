@@ -15,13 +15,13 @@ This project creates a dynamic "shooting star" visual effect using Processing. E
 
 1. Download and install [Processing](https://processing.org/).
 2. Clone this repository.
-3. Open `ShootingStars.pde` in Processing and run the sketch.
+3. Open `Emotion_Tree_Main.pde` in Processing and run the sketch.
 
 ## Files
 
-- **ShootingStars.pde**: Main sketch file.
-- **Char.pde**: Defines the individual "star" behavior.
-- **Stream.pde**: Manages star trails and movement.
+- **Emotion_Tree_Main.pde**: Main sketch file.
+- **Emotion_Tree_Char.pde**: Defines the individual "star" behavior.
+- **Emotion_Tree_Stream.pde**: Manages star trails and movement.
 
 ## Usage
 
