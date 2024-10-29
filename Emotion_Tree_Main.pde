@@ -5,12 +5,18 @@ int windowWidth;
 boolean recording = false;
 
 color[] morandiColors = {
-  color(197, 179, 88),  // muted yellow
-  color(181, 146, 129), // soft brown
-  color(141, 163, 153), // cool green-gray
-  color(170, 152, 169), // muted lavender
-  color(221, 210, 201)  // soft beige
+  color(255, 223, 0),    // Yellow - Joy
+  color(0, 105, 180),    // Blue - Sadness
+  color(255, 0, 0),      // Red - Anger
+  color(128, 0, 128),    // Purple - Fear
+  color(0, 128, 0),      // Green - Disgust
+  color(255, 140, 0),    // Orange - Anxiety
+  color(0, 255, 255),    // Cyan - Envy
+  color(75, 0, 130),     // Indigo - Ennui
+  color(255, 182, 193),  // Pink - Embarrassment
+  color(0, 0, 0)         // Black - Undefined
 };
+
 
 void setup() {
   size(1280, 720, P2D);
