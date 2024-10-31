@@ -1,13 +1,13 @@
 # EIDP_V1
 
-# Shooting Stars in Processing
+# UNIST Mood Tree
 
-This project creates a dynamic "shooting star" visual effect using Processing. Each "star" is represented by a small, colored circle with a trailing effect in muted Morandi colors.
+This project creates a dynamic "Mood Tree" visual effect using Processing. Each "star" is represented by a small, colored circle with a trailing effect in different colors inspired by Movie Inside Out.
 
 ## Features
 
 - **Shooting Star Effect**: Stars cascade with trailing tails, simulating a shooting effect.
-- **Morandi Color Palette**: Uses soft, desaturated colors for an aesthetic look.
+- **Color Palette**: Uses inside out representative colors for an aesthetic look.
 - **Dynamic Density**: Higher star density with small spacing.
 - **Recording**: Press `R` to start/stop recording frames as PNGs.
 
